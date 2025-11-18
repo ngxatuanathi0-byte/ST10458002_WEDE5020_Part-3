@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Service Enquiry</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
+</head>
+
+<body>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="enquiry.html" class="active">Enquiry</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+  <div class="card">
+    <h2>Service Enquiry</h2>
+
+    <form onsubmit="alert('Enquiry submitted successfully!'); return false;">
+      <input type="text" placeholder="Your Full Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="text" placeholder="Phone Number">
+
+      <select required>
+        <option>Select Enquiry Type</option>
+        <option>Order a Cake</option>
+        <option>Catering Service</option>
+        <option>Become a Sponsor</option>
+        <option>Volunteer</option>
+      </select>
+
+      <textarea placeholder="Additional Information"></textarea>
+
+      <button type="submit">Submit Enquiry</button>
+    </form>
+
+  </div>
+</div>
+
+</body>
+</html>

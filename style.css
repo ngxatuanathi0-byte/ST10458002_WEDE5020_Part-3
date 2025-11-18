@@ -1,0 +1,70 @@
+/* Logo */
+.logo {
+  width: 60px;
+  margin-right: 10px;
+}
+
+/* Hero Section */
+.hero {
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1px 1px 4px black;
+}
+
+/* Responsive Images */
+.responsive-img,
+.service-img {
+  width: 100%;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.tab-btn {
+  padding: 10px 15px;
+  background: #5c3d2e;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.tab-btn.active {
+  background: #8d5a44;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* Pricing Table */
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pricing-table th,
+.pricing-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.pricing-table th {
+  background: #d9a7a0;
+  color: white;
+}

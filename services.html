@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | WEDE Bakery</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+
+<nav>
+  <img src="images/logo.png" class="logo" alt="WEDE Logo">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html" class="active">Services</a></li>
+    <li><a href="enquiry.html">Enquiry</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="hero" style="background-image: url('images/hero-bakery.jpg');">
+  <h1>Our Services</h1>
+</section>
+
+<div class="container">
+
+  <!-- Tabbed Section -->
+  <div class="card">
+    <h2>What We Offer</h2>
+
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="cakes">Custom Cakes</button>
+      <button class="tab-btn" data-tab="pastries">Fresh Pastries</button>
+      <button class="tab-btn" data-tab="catering">Event Catering</button>
+    </div>
+
+    <!-- Cakes -->
+    <div class="tab-content active" id="cakes">
+      <img src="images/cake-1.jpg" class="service-img" alt="Custom Cakes">
+      <p>
+        Beautiful, personalised cakes for all occasions.
+      </p>
+    </div>
+
+    <!-- Pastries -->
+    <div class="tab-content" id="pastries">
+      <img src="images/pastries-1.jpg" class="service-img" alt="Fresh Pastries">
+      <p>
+        Fresh pastries baked every morning.
+      </p>
+    </div>
+
+    <!-- Catering -->
+    <div class="tab-content" id="catering">
+      <img src="images/catering-1.jpg" class="service-img" alt="Event Catering">
+      <p>
+        Full catering for events, parties, and corporate functions.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Pricing -->
+  <div class="card" style="flex: 1 1 100%;">
+    <h2>Pricing</h2>
+    <table class="pricing-table">
+      <tr>
+        <th>Service</th>
+        <th>Description</th>
+        <th>From</th>
+      </tr>
+      <tr>
+        <td>Custom Cakes</td><td>Theme & event cakes</td><td>R350</td>
+      </tr>
+      <tr>
+        <td>Pastries</td><td>Fresh daily</td><td>R15</td>
+      </tr>
+      <tr>
+        <td>Catering</td><td>Dessert tables & event packages</td><td>R1500</td>
+      </tr>
+    </table>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2025 WEDE Bakery</p>
+</footer>
+
+</body>
+</html>
