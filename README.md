@@ -9,3 +9,6 @@
 - `script.js` → Interactive features (accordion, product list, search filter, lightbox, form validation)
 - `images/` → Logo, hero images, service images
 - `sitemap.xml` → SEO sitemap listing all site pages
+### About Page
+- Introduces the bakery with an image and description
+- Simple card layout for content
