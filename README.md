@@ -1,1 +1,11 @@
 # ST10458002_WEDE5020_Part-3
+## Project Structure
+- `index.html` → Homepage
+- `about.html` → About Us page
+- `services.html` → Services & Pricing page
+- `enquiry.html` → Enquiry page
+- `contact.html` → Contact form page
+- `style.css` → Shared styling across all pages
+- `script.js` → Interactive features (accordion, product list, search filter, lightbox, form validation)
+- `images/` → Logo, hero images, service images
+- `sitemap.xml` → SEO sitemap listing all site pages
