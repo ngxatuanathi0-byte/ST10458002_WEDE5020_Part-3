@@ -18,3 +18,14 @@
 - **Search Filter**: Filters products in real-time
 - **Lightbox Gallery**: Click an image to view it enlarged in a modal
 - **Form Validation**: Ensures proper input before submission
+## Features
+- **Navigation & Layout**: Consistent navigation bar, hero sections, responsive card layout
+- **About Page**: Bakery introduction with image and description
+- **Services Page**: Tabbed section for Cakes, Pastries, Catering + Pricing table
+- **Contact Page**: Form with validation (name, email, message)
+- **JavaScript Interactivity**:
+  - Accordion toggle
+  - Dynamic product list
+  - Search filter
+  - Lightbox gallery
+  - Form validation
