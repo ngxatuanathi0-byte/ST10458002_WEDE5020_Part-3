@@ -12,3 +12,9 @@
 ### About Page
 - Introduces the bakery with an image and description
 - Simple card layout for content
+### JavaScript Interactivity
+- **Accordion**: Expand/collapse sections
+- **Dynamic Products**: Loads a product list dynamically
+- **Search Filter**: Filters products in real-time
+- **Lightbox Gallery**: Click an image to view it enlarged in a modal
+- **Form Validation**: Ensures proper input before submission
